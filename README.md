@@ -58,6 +58,8 @@ The database contains university rankings with the following columns:
 **Query**: Count universities from Japan in global top 200 for 2013
 
 **Result**: **6 universities** from Japan appeared in the global top 200 in 2013
+**Image**:
+
 ![alt text](image.png)
 **Universities found**:
 - University of Tokyo|14|76.23
@@ -68,7 +70,7 @@ The database contains university rankings with the following columns:
 - Tohoku University|95|44.52
 
 **Image**:
-- ![alt text](image-1.png)
+ ![alt text](image-1.png)
 
 ---
 
