@@ -67,6 +67,7 @@ The database contains university rankings with the following columns:
 - Nagoya University|91|44.78
 - Tohoku University|95|44.52
 
+**Image**:
 - ![alt text](image-1.png)
 
 ---
