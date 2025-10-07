@@ -66,7 +66,8 @@ The database contains university rankings with the following columns:
 - Keio University|70|47.05
 - Nagoya University|91|44.78
 - Tohoku University|95|44.52
-![alt text](image-1.png)
+
+- ![alt text](image-1.png)
 
 ---
 
