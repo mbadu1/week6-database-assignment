@@ -79,8 +79,10 @@ The database contains university rankings with the following columns:
 
 **Operation**: Increased University of Oxford's 2014 score by 1.2 points
 
-**Before**: Score = 94.2 (example)
-**After**: Score = 95.4
+**Results**: 
+![alt text](image-2.png)
+**Checker**:
+![alt text](image-3.png)
 
 **Result**: Updated 1 row - Oxford's 2014 score successfully increased by 1.2 points.
 
@@ -91,8 +93,10 @@ The database contains university rankings with the following columns:
 
 **Operation**: Removed all universities with score < 45 in 2015
 
-**Before Deletion**: 87 universities with score < 45
-**After Deletion**: 0 universities with score < 45
+**Before Deletion**: 556
+![alt text](image-4.png)
+**After Deletion**: 
+![alt text](image-5.png)
 
 **Result**: Deleted 87 rows from the 2015 rankings that didn't meet the minimum score threshold.
 
