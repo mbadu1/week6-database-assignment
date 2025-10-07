@@ -139,7 +139,10 @@ sqlite3 database.db
 # Or run queries directly
 sqlite3 database.db < queries/1_insert_duke_tech.sql
 ```
-
+## Results Images with python script
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
 ## Technologies Used
 - SQLite 3
 - VS Code
@@ -285,38 +288,8 @@ Several Asian universities showed significant gains
 Some European universities improved positions
 US universities remained relatively stable at top
 
-Trend Analysis:
-
-Upward mobility: Emerging economies investing in education
-Stability at top: Elite institutions maintain positions
-Competition increasing: Score gaps narrowing in 100-300 rank range
 
 
-8. Regional Performance Comparison
-sqlCopySELECT 
-    CASE 
-        WHEN country IN ('USA', 'Canada') THEN 'North America'
-        WHEN country IN ('United Kingdom', 'Germany', 'France', 'Italy', 'Spain', 'Netherlands', 'Switzerland', 'Sweden', 'Belgium', 'Denmark') THEN 'Western Europe'
-        WHEN country IN ('China', 'Japan', 'South Korea', 'Singapore', 'Hong Kong') THEN 'East Asia'
-        WHEN country IN ('Australia', 'New Zealand') THEN 'Oceania'
-        ELSE 'Other'
-    END as region,
-    COUNT(*) as total_universities,
-    ROUND(AVG(score), 2) as avg_score,
-    ROUND(AVG(world_rank), 1) as avg_rank
-FROM rankings
-WHERE year = 2015
-GROUP BY region
-ORDER BY avg_score DESC;
-Regional Comparison (2015):
-RegionUniversitiesAvg ScoreAvg RankNorth America17154.3245.6Western Europe14551.7278.3East Asia9248.9312.5Oceania2347.2335.8Other6943.1398.7
-Regional Insights:
-
-North America leads in both quantity and quality
-Western Europe close second with strong institutions
-East Asia rapidly catching up with volume
-Oceania punches above weight with quality
-Developing regions underrepresented but growing
 
 ## Author
 Michael Kofi Badu
